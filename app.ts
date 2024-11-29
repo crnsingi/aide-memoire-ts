@@ -14,3 +14,7 @@ agewithType = 18;
 let testString : string
 
 testString = "hello"
+
+let testBoolean: boolean
+
+testBoolean = false
