@@ -35,4 +35,7 @@ names.push("mike")
 
 let numbers = [11,22,35]
 
+// numbers.push(true)
+numbers.push(92)
+
 
