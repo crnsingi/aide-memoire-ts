@@ -18,3 +18,5 @@ testString = "hello"
 let testBoolean: boolean
 
 testBoolean = false
+
+let testStringOrNumber: string | number
