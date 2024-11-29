@@ -38,4 +38,8 @@ let numbers = [11,22,35]
 // numbers.push(true)
 numbers.push(92)
 
+let testStringArray : string []
+
+testStringArray = ["one","two","three"]
+
 
