@@ -29,3 +29,10 @@ testStringOrNumber = "10"
 // ARRAY 
 
 let names = ["john","jane","tom"]
+
+// names.push (3)
+names.push("mike")
+
+let numbers = [11,22,35]
+
+
