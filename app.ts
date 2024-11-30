@@ -66,3 +66,11 @@ user.age = 29
 // user.isAdmin = "no"
 user.isdAdmin = true
 
+// user.phone ="+12345678"
+
+let userObj : { 
+  username: string
+  age: number
+  isAdmin: boolean
+}
+
