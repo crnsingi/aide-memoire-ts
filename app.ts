@@ -114,3 +114,10 @@ testAnyArray= [1,"two", false, []]
 let sayHi = () => {
   console.log("Hi, welcome")
 }
+
+// sayHi = "hi"
+
+let funcReturnString = ():string=>{
+  console.log("hi")
+  return "cesar dev"
+}
