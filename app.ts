@@ -194,3 +194,9 @@ const emp: IEmployee = {
   age:43,
   employeeId: 1,
 }
+
+const client: IUser = { 
+  username: "tom",
+  email: "tom@gmail.com",
+  age: 43,
+}
