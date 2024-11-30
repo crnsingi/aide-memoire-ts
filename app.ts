@@ -153,3 +153,7 @@ type UserType = {
   phone?:string
 }
 
+let betterFunc = (user:UserType) => { 
+  console.log(user.username)
+}
+
