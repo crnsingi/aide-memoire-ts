@@ -59,4 +59,7 @@ let user = {
   isdAdmin: false
 }
 
+user.username = "jane"
+// user.age = "eighteen"
+user.age = 29 
 
