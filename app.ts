@@ -63,3 +63,6 @@ user.username = "jane"
 // user.age = "eighteen"
 user.age = 29 
 
+// user.isAdmin = "no"
+user.isdAdmin = true
+
