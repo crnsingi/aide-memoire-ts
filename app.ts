@@ -72,11 +72,19 @@ let userObj : {
   username: string
   age: number
   isAdmin: boolean
-}
+};
 
 userObj = { 
   username: "john",
   age: 23,
-  isAdmin: true
-}
+  isAdmin: true,
+  //phone: "+1234567"
+};
+
+let userObj2 : { 
+  username: string;
+  age: number;
+  isAdmin: boolean;
+  phone?: string
+};
 
