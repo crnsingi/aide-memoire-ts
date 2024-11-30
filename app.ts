@@ -144,3 +144,12 @@ sum(2,3)
 let func = (user:{ username:string; age:number; phone?:string})=> { 
   console.log(user.username),
 };
+
+// TYPE ALIASES
+
+type UserType = { 
+  username: string;
+  age: number;
+  phone?:string
+}
+
