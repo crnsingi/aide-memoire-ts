@@ -184,3 +184,7 @@ interface IUser{
   age:number
 }
 
+interface IEmployee extends IUser { 
+  employeeId: number
+}
+
