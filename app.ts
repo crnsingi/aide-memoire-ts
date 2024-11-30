@@ -42,4 +42,9 @@ let testStringArray : string []
 
 testStringArray = ["one","two","three"]
 
+let testNumberArray : number []
+
+//testNumberArray = [true, "hi", 23]
+testNumberArray = [12, 55, 23]
+
 
