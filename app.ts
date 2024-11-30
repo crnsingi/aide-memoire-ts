@@ -159,7 +159,7 @@ let betterFunc = (user:UserType) => {
 
 type myFunc = (a:number, b:string) => void
 
-let write : myFunc = (numb, str) => { 
+let write : myFunc = (num, str) => { 
   console.log(num + " times " + str)
 }
 
@@ -167,5 +167,6 @@ type UserType2 = {
   username: string;
   age: number;
   phone?:string;
+  theme: "dark" | "light"
 }
 
