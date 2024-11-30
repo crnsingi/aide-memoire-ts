@@ -51,4 +51,12 @@ let testStringOrNumberArray: (string | number) []
 
 testStringOrNumberArray = [1, "two", 3]
 
+// OBJECTS
+
+let user = { 
+  username: "john",
+  age:22,
+  isdAdmin: false
+}
+
 
