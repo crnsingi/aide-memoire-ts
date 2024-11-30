@@ -170,3 +170,11 @@ type UserType2 = {
   theme: "dark" | "light"
 }
 
+const userWithTheme : UserType2 = {
+  username: "john",
+  age: 43,
+
+  //theme:"pink"
+  theme: "dark"
+}
+
