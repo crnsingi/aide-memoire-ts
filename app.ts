@@ -97,7 +97,7 @@ userObj2 = {
 
 //Any 
 
-let testAny;
+let testAny: any;
 
 testAny = 12
 testAny = "Hello"
@@ -105,3 +105,6 @@ testAny = true
 testAny = [true]
 testAny = {}
 
+let testAnyArray : any[]
+
+testAnyArray= [1,"two", false, []]
