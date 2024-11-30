@@ -88,3 +88,10 @@ let userObj2 : {
   phone?: string
 };
 
+userObj2 = { 
+  username: "jane",
+  age: 43,
+  isAdmin:false,
+  phone: "+1234567"
+}
+
