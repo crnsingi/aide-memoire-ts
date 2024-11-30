@@ -188,3 +188,9 @@ interface IEmployee extends IUser {
   employeeId: number
 }
 
+const emp: IEmployee = {
+  username: "tom",
+  email: "tom@gmail.com",
+  age:43,
+  employeeId: 1,
+}
