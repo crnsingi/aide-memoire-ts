@@ -129,3 +129,8 @@ let multiple = (num: number) => {
 let multiple2 = (num: number): number => { 
   return num * 2;
 }
+
+let multiple3 = (num: number): void => { 
+  //return num * 2;
+  // do something but dont return 
+}
