@@ -47,4 +47,8 @@ let testNumberArray : number []
 //testNumberArray = [true, "hi", 23]
 testNumberArray = [12, 55, 23]
 
+let testStringOrNumberArray: (string | number) []
+
+testStringOrNumberArray = [1, "two", 3]
+
 
