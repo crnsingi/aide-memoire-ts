@@ -157,3 +157,6 @@ let betterFunc = (user:UserType) => {
   console.log(user.username)
 }
 
+type myFunc = (a:number, b:string) => void
+
+
