@@ -121,3 +121,11 @@ let funcReturnString = ():string=>{
   console.log("hi")
   return "cesar dev"
 }
+
+let multiple = (num: number) => { 
+  return num * 2;
+}
+
+let multiple2 = (num: number): number => { 
+  return num * 2;
+}
