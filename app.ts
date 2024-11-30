@@ -95,3 +95,13 @@ userObj2 = {
   phone: "+1234567"
 }
 
+//Any 
+
+let testAny;
+
+testAny = 12
+testAny = "Hello"
+testAny = true
+testAny = [true]
+testAny = {}
+
