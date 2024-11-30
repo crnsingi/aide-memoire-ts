@@ -74,3 +74,9 @@ let userObj : {
   isAdmin: boolean
 }
 
+userObj = { 
+  username: "john",
+  age: 23,
+  isAdmin: true
+}
+
