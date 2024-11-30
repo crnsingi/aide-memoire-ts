@@ -173,8 +173,14 @@ type UserType2 = {
 const userWithTheme : UserType2 = {
   username: "john",
   age: 43,
-
   //theme:"pink"
   theme: "dark"
+}
+
+//Interfaces 
+interface IUser{
+  username:string;
+  email:string;
+  age:number
 }
 
