@@ -134,3 +134,9 @@ let multiple3 = (num: number): void => {
   //return num * 2;
   // do something but dont return 
 }
+
+let sum = (num1: number, num2: number, another?:number) => { 
+  return num1 + num2;
+};
+
+sum(2,3)
