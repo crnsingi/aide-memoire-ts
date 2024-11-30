@@ -108,3 +108,9 @@ testAny = {}
 let testAnyArray : any[]
 
 testAnyArray= [1,"two", false, []]
+
+//FUNCTIONS 
+
+let sayHi = () => {
+  console.log("Hi, welcome")
+}
