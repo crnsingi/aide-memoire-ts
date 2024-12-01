@@ -231,4 +231,11 @@ const testMe: IPostBetter<String> = {
   title: "post title",
   desc: "post desc",
   extra: ["str", "str2"],
+};
+
+interface IPostEvenBetter <T extends object> {
+  id: number;
+  title: string;
+  desc: string;
+  extra: T[];
 }
