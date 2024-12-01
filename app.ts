@@ -239,3 +239,10 @@ interface IPostEvenBetter <T extends object> {
   desc: string;
   extra: T[];
 }
+
+const testMe2: IPostBetter<{id:number, username:string}> = { 
+  id: 1, 
+  title: "post title",
+  desc: "post desc",
+  extra: [{id:1,username:'john'}],
+};
