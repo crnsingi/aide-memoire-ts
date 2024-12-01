@@ -200,3 +200,12 @@ const client: IUser = {
   email: "tom@gmail.com",
   age: 43,
 }
+
+//Generics 
+
+interface IPost { 
+  id: number;
+  title: string;
+  desc: string;
+  extra
+}
