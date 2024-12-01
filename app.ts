@@ -246,3 +246,10 @@ const testMe2: IPostBetter<{id:number, username:string}> = {
   desc: "post desc",
   extra: [{id:1,username:'john'}],
 };
+
+const testMe3: IPostEvenBetter <IAuthor> = { 
+  id: 1, 
+  title: "post title",
+  desc: "post desc",
+  extra: [{id:1,username:'john'}],
+};
