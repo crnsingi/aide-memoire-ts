@@ -208,9 +208,20 @@ interface IAuthor {
   username: string
 }
 
+interface ICategory {
+  id: number,
+  title: string
+}
 interface IPost { 
   id: number;
   title: string;
   desc: string;
-  extra
+  extra : IAuthor [] | ICategory [];
+}
+
+interface IPostBetter<T> { 
+  id: number;
+  title: string;
+  desc: string;
+  extra: T[]
 }
