@@ -203,6 +203,11 @@ const client: IUser = {
 
 //Generics 
 
+interface IAuthor { 
+  id: number,
+  username: string
+}
+
 interface IPost { 
   id: number;
   title: string;
